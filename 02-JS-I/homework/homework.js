@@ -29,7 +29,7 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
   var str = "Juan";
-  returt (str)
+  return str
 }
 
 function suma(x, y) {
