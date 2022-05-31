@@ -135,7 +135,8 @@ function sumarLikesDeUsuario (usuario) {
   // Cada objeto "post" tiene una propiedad llamada "likes" que es un entero (int/integer)
   // Suma todos los likes de todos los objetos "post"
   // Devuelve la suma
-  // Tu código:   
+  // Tu código: 
+  
   var suma = 0;
   for (i = 0 ; i < usuario.posts.length; i++){
     suma = suma + usuario.posts[i].likes;
@@ -155,8 +156,7 @@ function agregarMetodoCalculoDescuento (producto) {
   // Tu código:   
   
   producto.calcularPrecioDescuento = function() {
-    return  this.precio - (this.precio * this.porcentajeDeDescuento);
-    
+    return  this.precio - (this.precio * this.porcentajeDeDescuento);    
   }
   return producto;
 }
